@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+.explore-tours{
+    background-image: url('https://i.ibb.co/b1WgG6V/explore-bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    font-family: 'Rubik', sans-serif;
+    padding: 128px 0;
+    position: relative;
+}
+.explore-text{
+    text-align: left;
+    width: 50%;
+    top: 50px;
+    right: 50px;
+    position: absolute;
+}
+.explore-text p{
+    color: #2E3031;
+    margin: 50px 0;
+}
+.regular-btn{
+    padding: 15px 60px;
+    background-color: #FF7F47;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .5s ease-in-out;
+}
+.regular-btn:hover{
+    background-color: #2E3031;
+    color: #fff;
+}
+@media only screen and (max-width:576px) {
+    .explore-text{
+        padding: 10%;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .explore-text p{
+        margin: 30px 0;
+    }
+    .regular-btn{
+        padding: 15px 40px;
+    }
+}

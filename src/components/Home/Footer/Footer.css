@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+.footer{
+    font-family: 'Rubik', sans-serif;
+    background-color: #2D363F;
+    color:#B2C3CB;
+}
+.social-link a:hover{
+    background-color: #FF7F47;
+    color: #fff;
+    border: 1px solid #FF7F47;
+}
+.text-color{
+    color:#B2C3CB;
+    text-decoration: none;
+}
+.text-color:hover{
+    color:#fff;
+}

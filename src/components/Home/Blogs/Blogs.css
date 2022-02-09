@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+.blogs{
+    font-family: 'Rubik', sans-serif;
+    background-color: #F1F4F6;
+    color:#2e3031;
+}
+.blogs p{
+    font-size: 14px;
+    color: #7E8588;
+}
+.blogs .card-title{
+    text-align: left;
+}
+.blogs .card-text{
+    text-align: left;
+}
+.common-fonts{
+    font-size: 14px;
+    color: #7E8588;
+}
+.common-btn{
+    padding: 8px 25px;
+    background-color: #FF7F47;
+    color: #fff;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+}
+.common-btn:hover{
+    background-color: #2E3031;
+    color: #fff;
+}
+.blogs .card-body h5{
+    color:#2e3031;
+    transition: color .3s ease-in-out;
+}
+.blogs .card-body h5:hover{
+    color:#FF7F47;
+}

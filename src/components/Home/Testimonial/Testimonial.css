@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+.testimonial{
+    font-family: 'Rubik', sans-serif;
+    background-color: #E0F6FF;
+}
+.testimonial h2{
+    font-size: 32px;
+    margin: 20px 0;
+}
+.testimonial p{
+    font-size: 14px;
+    color: #7E8588;
+}
+.content{
+    padding:30px;
+    background-color: #fff;
+}
+@media only screen and (max-width:992px) {
+    .content{
+        padding:32px;
+        
+    }
+}
+@media only screen and (max-width:768px) {
+    .content{
+        margin-top: 25px;
+    }
+}

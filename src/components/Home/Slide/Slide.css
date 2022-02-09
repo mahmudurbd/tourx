@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+.carousel-caption{
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 16%;
+}
+.carousel-caption p{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.carousel-caption h1{
+    color: #fff;
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.carousel-caption h1:hover{
+    color: #FF7F47;
+    transition: .5s ease-in-out;
+}
+
+@media only screen and (max-width: 992px) {
+    .carousel-caption{
+        margin-bottom: 10%;
+    }
+    .carousel-caption p{
+        font-size: 25px;
+    }
+    .carousel-caption h1{
+        font-size: 50px;
+        letter-spacing: 0px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel-caption{
+        margin-bottom: 5%;
+    }
+    .carousel-caption p{
+        font-size: 25px;
+    }
+    .carousel-caption h1{
+        font-size: 45px;
+        letter-spacing: 0px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .carousel-caption{
+        margin-bottom: 3%;
+    }
+    .carousel-caption p{
+        font-size: 25px; 
+    }
+    .carousel-caption h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 495px) {
+    .carousel-caption{
+        margin-bottom: 0%;
+    }
+    .carousel-caption p{
+        font-size: 15px;
+    }
+    .carousel-caption h1{
+        font-size: 38px;
+    }
+}
+@media only screen and (max-width: 385px) {
+    .carousel-caption h1{
+        font-size: 23px;
+    }
+}

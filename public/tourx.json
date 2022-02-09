@@ -1,0 +1,64 @@
+[{
+    "id": 1,
+    "packageName": "Rio De Janeiro",
+    "description": "Rio de Janeiro is a huge seaside city in Brazil, famed for its Copacabana and Ipanema beaches...",
+    "price": 528,
+    "rating": 3,
+    "img": "https://i.ibb.co/5hp7yCT/pack-1.jpg"
+  }, {
+    "id": 2,
+    "packageName": "Multicultural Singapore",
+    "description": "Singapore, an island city-state off southern Malaysia, is a global financial center with...",
+    "price": 917,
+    "rating": 4,
+    "img": "https://i.ibb.co/d4LsVvh/pack-2.jpg"
+  }, {
+    "id": 3,
+    "packageName": "Luxurious London",
+    "description": "Group tours also mean you will be seeing the world alongside like-minded people, making it ideal for...",
+    "price": 323,
+    "rating": 5,
+    "img": "https://i.ibb.co/CzDKSFg/pack-3.jpg"
+  }, {
+    "id": 4,
+    "packageName": "Historic Istanbul",
+    "description": "Istanbul is a major city in Turkey that straddles Europe and Asia across the Bosphorus Strait...",
+    "price": 788,
+    "rating": 4,
+    "img": "https://i.ibb.co/zSQ4N7t/pack-4.jpg"
+  }, {
+    "id": 5,
+    "packageName": "Mysterious Goreme",
+    "description": "Göreme is a town in the Cappadocia region of central Turkey. Just east of town is the...",
+    "price": 428,
+    "rating": 5,
+    "img": "https://i.ibb.co/ckwpbN2/pack-5.jpg"
+  }, {
+    "id": 6,
+    "packageName": "Fabulous Dubai",
+    "description": "Dubai is situated on the Persian Gulf coast of the United Arab Emirates and is...",
+    "price": 357,
+    "rating": 5,
+    "img": "https://i.ibb.co/bbWzLym/pack-6.jpg"
+  }, {
+    "id": 7,
+    "packageName": "Modern Sydney",
+    "description": "Sydney, capital of New South Wales and one of Australia's largest cities, is best known...",
+    "price": 528,
+    "rating": 4,
+    "img": "https://i.ibb.co/KxM5DW7/pack-7.jpg"
+  }, {
+    "id": 8,
+    "packageName": "Magical Maldives",
+    "description": "The Maldives is a tropical nation in the Indian Ocean composed of 26 ring-shaped atolls,...",
+    "price": 595,
+    "rating": 3,
+    "img": "https://i.ibb.co/SxyJMW0/pack-8.jpg"
+  }, {
+    "id": 9,
+    "packageName": "Venice The City of Water",
+    "description": "Travelblogger whimsical darn adventure design travelblogger travelblogger, webdesign organized",
+    "price": 379,
+    "rating": 3,
+    "img": "https://i.ibb.co/f1L5cXC/pack-9.jpg"
+  }]

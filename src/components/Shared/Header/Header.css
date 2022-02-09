@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+.menu li {
+    margin: 0 18px
+}
+.menu li a{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: #000 !important;
+}
+.menu li a:hover{
+    color: #FF7F47 !important;
+    transition: .5s ease-in-out;
+}
+.log-out-btn{
+    padding: 8px 15px;
+    background-color: #FF7F47;
+    color: #fff;
+    width: 30%;
+    margin: 0 auto;
+    border: none;
+}
+.user{
+   font-size: 12px !important;
+   text-decoration: none;
+   text-align: center;
+   font-weight: 400;
+}
+@media only screen and (max-width:992px) {
+    .dashboard{
+        width: 40%;
+        margin:0 auto !important;
+        margin-bottom: 5px !important;
+        text-align: center !important;
+    }
+}
