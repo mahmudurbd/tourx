@@ -13,7 +13,7 @@ const Booking = () => {
      console.log(pack);
 
     useEffect(() => {
-        fetch(`https://agile-wave-25295.herokuapp.com/tourpackages/${packageId}`)
+        fetch(`https://tourx-server.vercel.app/${packageId}`)
         .then(res =>res.json())
         .then(data => setPack(data));
     },[]);

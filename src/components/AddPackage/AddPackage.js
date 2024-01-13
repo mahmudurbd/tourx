@@ -37,17 +37,12 @@ const AddPackage = () => {
           </div>
           <div class="row">
             <div class="col mt-4">
-              <input {...register("name")} type="text" class="form-control" placeholder="Name"/>
+              <input {...register("packageName")} type="text" class="form-control" placeholder="Name"/>
             </div>
           </div>
           <div class="row mt-4">
             <div class="col">
-              <input {...register("email")} type="text" class="form-control" placeholder="Email"/>
-            </div>
-          </div>
-          <div class="row mt-4">
-            <div class="col">
-              <input {...register("image")} type="text" class="form-control" placeholder="Image URL"/>
+              <input {...register("img")} type="text" class="form-control" placeholder="Image URL"/>
             </div>
           </div>
           <div class="row mt-4">

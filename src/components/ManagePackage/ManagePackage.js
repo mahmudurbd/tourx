@@ -6,14 +6,14 @@ const ManagePackage = (props) => {
     const {price,packageName,pack,_id} = props.pack
      const [packages,setPackages] = useState([]);
      useEffect(() => {
-         fetch(`https://agile-wave-25295.herokuapp.com/tourpackages/`)
+         fetch(`https://tourx-server.vercel.app/`)
          .then(res => res.json())
          .then(data => setPackages(data))
      },[])
 
      console.log(packages);
    const handleDelete = id => {
-       const url = `https://agile-wave-25295.herokuapp.com/tourpackages/${id}`
+       const url = `https://tourx-server.vercel.app/${id}`
        fetch(url,{
            method: 'DELETE'
        })

@@ -8,7 +8,7 @@ const ManagePackages = () => {
     const [packages,setPackages] = useState([]);
     console.log(packages);
     useEffect(() => {
-        fetch('https://agile-wave-25295.herokuapp.com/tourpackages')
+        fetch('https://tourx-server.vercel.app')
         .then(res => res.json())
         .then(data => setPackages(data));
     },[])
